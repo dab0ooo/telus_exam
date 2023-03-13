@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "3baf905a-a075-45a1-99dc-720c6eb90a8b",
+		"name": "PAYLOAD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ims/subscriber/test3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ims",
+						"subscriber",
+						"test3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPSERT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"key\":\"value\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/ims/subscriber/test3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ims",
+						"subscriber",
+						"test3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ims/subscriber/test3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ims",
+						"subscriber",
+						"test3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
